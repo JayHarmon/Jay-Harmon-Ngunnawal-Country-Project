@@ -19,6 +19,11 @@
     grid-row-end: 4;
 }
 
+h1 {
+    color: #570202;
+    text-align: center;
+}
+
 .grid-container > div {
     background-color: rgba(0,0,0, 0.2);
 }
@@ -29,8 +34,13 @@
     background-color: #333333;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar a {
-    float: left;
+    /*float: left;*/
     font-size: 1em;
     color: white;
     text-align: center;
@@ -38,6 +48,16 @@
     text-decoration: none;
 }
 
+.navbar img  {
+    margin-bottom: 1em;
+}
+
 .navbar a:hover {
     background-color: #2ccbb4;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
