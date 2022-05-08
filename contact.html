@@ -16,24 +16,33 @@
     <img src="images/banner.png" width="10%">
     <br>
     <a href="index.html">Home</a>
-    <a href="profile.html">History</a>
-    <a href="profile.html">Gallery</a>
-    <a href="profile.html">Contact Us</a>
+    <a href="history.html">History</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact Us</a>
 </div>
 
 <div class="grid-container"><!-- Overall Layout -->
 <div class = "full-width">
-        <h1>Heading</h1>
-    </div>
-    <div class="main-content">
-        Cell 1
-    </div>
-    <div>
-        Cell 2
-    </div>
-    <div>
-        Cell 3
-    </div>
+    <form onsubmit="return false">
+        <p>
+            <label for="name">Full Name</label>
+            <input type='text' id="name" name='name'>
+        </p>
+        <p>
+            <label for="email">Email Address</label>
+            <input type='email' id="email" name='email'>
+        </p>
+        <p>
+            <label for="mobile">Mobile Number</label>
+            <input type='number' id="mobile" name='mobile'>
+        </p>
+        <p>
+            <label for="message">Message</label>
+            <input type='text' id="message" name='message'>
+        </p>
+        <button onclick="authentication(this.form)">Submit</button>
+    </form>
+</div>
 </div>
 
 
